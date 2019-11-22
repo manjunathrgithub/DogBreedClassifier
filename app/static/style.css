@@ -1,1 +1,97 @@
+#container {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.dog-head {
+  z-index: 100;
+  -webkit-animation: head-move 1s ease-in-out infinite;
+}
+
+div.dog-body {
+  height: 300px;
+  width: 225px;
+  margin-top: -175px;
+  margin-left: 40px;
+  background-image: url('http://www.clker.com/cliparts/T/0/9/J/e/4/dog-body-md.png');
+  background-repeat: no-repeat;
+}
+
+
+
+/*ANIMATIONS
+---------------------------------------------------------*/
+
+@-webkit-keyframes head-move {
+  50% { 
+    -webkit-transform: rotate(-1.5deg); 
+  }
+}
+
+
+
+body {
+    background-color: #fff;
+}
+
+.no-display {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #262626;
+}
+
+.content {
+    margin-top: 10em;
+}
+
+.analyze {
+    margin-top: 5em;
+}
+
+.upload-label {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 13px;
+}
+
+button.choose-file-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #7052CB;
+    font-size: 13px;
+    color: #7052CB;
+}
+
+button.analyze-button {
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+button:focus {
+    outline: 0;
+}
 
